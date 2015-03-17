@@ -58,7 +58,7 @@ Although `window.open` is in the global scope, InAppBrowser is not available unt
 
 ## Installation
 
-    cordova plugin add cordova-plugin-inappbrowser
+    cordova plugin add org.apache.cordova.inappbrowser
 
 If you want all page loads in your app to go through the InAppBrowser, you can
 simply hook `window.open` during initialization.  For example:
